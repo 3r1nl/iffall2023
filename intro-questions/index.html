@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Introductory Questions
+        </title>
+        <!--Functions for question buttons-->
+        <script>
+            function answerOne() {
+                document.getElementById("answerOne").innerHTML = "Erin, Communication Design Major + Art History Minor + HCI minor, Junior";
+            }
+            function answerTwo() {
+                document.getElementById("answerTwo").innerHTML = "As a comdes major this class is mandatory but I also am an HCI minor and somewhat like coding"
+            }
+            function answerThree() {
+                document.getElementById("answerThree").innerHTML = "I took CSE330 because it had the word 'creative' in it, so I know a little bit of html, css, and js. I would say I've forgotten a good amount of it since I took it two years ago.   "
+            }
+            function answerFour() {
+                document.getElementById("answerFour").innerHTML = "In 330 we focused more on the back-end of web design and not too much on the front-end and interactions, so I would like to learn more about that. Specifically, I think it would be interesting to learn about animation and motion"
+            }
+            function answerFive() {
+                document.getElementById("answerFive").innerHTML = "I would assume that when designing for screen there are a lot more variables. For example, when designing a book, there is a very specific way you interact with it versus when designing for the screen, you have to think about various display sizes and that there are many ways to potentially interact with something on the screen.  "
+            }
+            function answerSix() {
+                document.getElementById("answerSix").innerHTML = "<a href='https://open.spotify.com/'>Spotify website</a> <p> I think that the userface is very simple, clean, and easy to navigate. It doesn't overwhelm the viewer with menus, buttons, or choices. It just does its job of providing users a place where they can find and compile their favorite music. </p>"
+            }
+            function answerSeven() {
+                document.getElementById("answerSeven").innerHTML = "<a href='https://www.unicefusa.org/?gad=1&gclid=EAIaIQobChMIx9r3jsqUgQMVhzWtBh3HLwfwEAAYASAAEgJBAvD_BwE'> Unicef website </a> <p> Unicef is a non-profit that works to improve the lives of children around the world. They are able to effectively communicate their mission immeadiately on their home page with a full screen video showing the children that need their help. The site's minimal color palette with pops of bright blue also evoke a serious and professional tone. </p> "
+            }
+            function answerEight() {
+                document.getElementById("answerEight").innerHTML = "<a href='https://www.boredbutton.com/random'> Bored Button website </a> <p> I chose the Bored Button website because I think it functions exactly as it is intended to. It is simple to use and provides a fun way to hopefully cure your boredom. </p> "
+            } 
+            // based on https://www.w3schools.com/jsref/met_element_getelementsbytagname.asp
+            function clearAnswers() {
+                console.log("hello... should be clearing");
+                //var list = document.getElementById
+                var answers = document.getElementsByTagName("p"); 
+                console.log(answers.length)               
+                    for (let i=0; i < answers.length; i++) {
+                        console.log(answers[i]);
+                        answers[i].innerHTML = " ";
+               }
+            }
+        </script>
+        <!--CSS-->
+        <style>
+            h1 {
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                text-align: center;
+            }
+            li {
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-weight:bold;
+            }
+            p {
+                color: rgb(49, 63, 185);
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-weight: normal;
+            }
+            button {
+                background-color: rgb(49, 63, 185);
+                border-color:rgb(109, 121, 228);
+                color: seashell;
+            }
+
+
+        </style>
+    </head>
+   
+    <body>
+        <h1>Introductory Questions</h1>
+        <br>
+        <ol>
+            <li>
+                Provide your name, major, year in school (sophomore, junior, etc).
+                <button type="button" onclick="answerOne()">Answer</button>
+                <br>
+                <p id="answerOne"> </p>
+            </li>
+            <li>
+                Tell us a bit about your background and what prompted you to take this class.  
+                <button type="button" onclick="answerTwo()">Answer</button>
+                <br>
+                <p id="answerTwo"> </p>
+            </li>
+            <li>
+                Do you have any experience with HTML/CSS/JS? If so, tell us a bit about it.
+                <button type="button" onclick="answerThree()">Answer</button>
+                <br>
+                <p id="answerThree"> </p>
+            </li>
+            <li>
+                Name one thing you hope to learn in this class.
+                <button type="button" onclick="answerFour()">Answer</button>
+                <br>
+                <p id="answerFour"> </p>
+            </li>
+            <li>
+                Name one way you expect designing for screen to be different from designing for paper.
+                <button type="button" onclick="answerFive()">Answer</button>
+                <br>
+                <p id="answerFive"> </p>
+            </li>
+            <li>
+                Provide a link to a website you think exemplifies effective design. Explain your choice.
+                <button type="button" onclick="answerSix()">Answer</button>
+                <br>
+                <p id="answerSix"> </p>
+            </li>
+            <li>
+                Provide a link to a website you think exemplifies effective communication. Explain your choice.
+                <button type="button" onclick="answerSeven()">Answer</button>
+                <br>
+                <p id="answerSeven"> </p>
+            </li>
+            <li>
+                Provide a link to a website you think works well. Explain your choice. 
+                <button type="button" onclick="answerEight()">Answer</button>
+                <br>
+                <p id="answerEight"> </p>
+            </li>
+        </ol>
+
+        <button type="button" onclick="clearAnswers()">Reset</button>      
+    </body>
+
+</html>
