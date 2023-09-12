@@ -1,0 +1,105 @@
+
+
+.column {
+    width: 1020px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.albumCover {
+    float:left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.headerBox {
+    background-color: floralwhite;
+    height: 120px;
+    width: 500px;
+    align-items: center;
+}
+
+.videoBox {
+    background-color: floralwhite;
+    height: 300px;
+    width: 500px;
+    align-items: center;
+}
+
+iframe {
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.headerColumn {
+    float: left;
+}
+
+.lyrics {
+    text-align: center;
+    color: rgb(158, 29, 48);
+    font-family: "komet";
+    padding: 10px;
+    padding-top: 0pt;
+}
+
+.lyricColumn {
+    float: right;
+    border: floralwhite;
+    border-style: dotted;
+    border-width: 3px;
+    padding-top: 0px;
+}
+
+.titleInfo {
+    float: left;
+    padding-left: 10px;
+}
+
+body {
+    /* img ref: https://library.artstor.org/#/asset/AMONIG_10313894108 */
+    background-image: url('AMONIG_10313894108.jpg');
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover; 
+}
+
+.songTitle {
+    font-family: "natalya-alternate-two";
+    font-size: 25pt;
+    color: rgb(158, 29, 48);
+    font-weight: 700;
+    padding-top: 5px;
+
+}
+
+.lyricsTitle {
+    font-family: "natalya-alternate-two";
+    color: rgb(158, 29, 48);
+    font-size: 30px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-weight: 700;
+}
+
+.artistTitle {
+    color: rgb(158, 29, 48);
+    font-family: "komet";
+    font-size: 15pt;
+    font-weight: lighter;
+    padding-bottom: 8px;
+}
+
+p{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.aboutInfo {
+    color: floralwhite;
+    font-family: komet;
+    font-weight: lighter;
+    font-size: 10px;
+}
+
+
