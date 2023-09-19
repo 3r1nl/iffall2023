@@ -1,0 +1,189 @@
+html {
+    background-image: url('../media/paperbackground.jpg');
+}
+
+.column {
+    width: 1020px;
+    margin: 20%;
+    margin-top: 65px;
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-family: "Crimson Text" ;
+    font-size: 40pt;
+    color: crimson;
+    line-height: 0;
+}
+
+h2 {
+    font-family: "Crimson Text" ;
+    font-size: 25pt;
+    color: rgb(170, 12, 44);
+    line-height: 0;
+}
+
+.titleSpacing {
+    line-height: 60px;
+    margin-top: 114px;
+}
+
+.headerBox {
+    margin-bottom: 123px;
+}
+
+p {
+    line-height: 0;
+}
+
+h3 {
+    line-height: 0;
+    margin-bottom: 37px;
+}
+
+h4 {
+    line-height: 0;
+    margin-bottom: 20px;
+    text-indent: 40px;
+}
+
+h5 {
+    line-height: 0;
+    margin-top: 0;
+    margin-bottom: 35px;
+    text-indent: 40px;
+}
+
+.categoryHeader {
+    font-family: "Crimson Text" ;
+    font-size: 18pt;
+    color: rgb(201, 3, 43)
+}
+
+.styleName{
+    font-family: "Crimson Text" ;
+    font-size: 10pt;
+    color: rgb(251, 101, 131);
+    line-height: 5px;
+    
+}
+
+.exampleText {
+    font-family: "Crimson Text" ;
+    font-size: 15pt;
+    color: rgb(215, 31, 67);
+}
+
+.normalWeight {
+    font-weight: normal;
+}
+
+.boldWeight {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.italicStyle {
+    font-style: italic;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.normalStyle {
+    font-style: normal;
+    font-weight: normal ;
+}
+
+.spreadStyle {
+    font-style: normal;
+    font-weight: normal ;
+    letter-spacing: .7em;
+}
+
+.condensedStyle {
+    font-style: normal;
+    font-weight: normal ;
+    letter-spacing: -.07em;
+    margin-bottom: 20px;
+}
+
+.capitalizedStyle {
+    font-style: normal;
+    font-weight: normal;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.lowercaseStyle {
+    font-style: normal;
+    font-weight: normal;
+    text-transform: lowercase;
+}
+
+.uppercaseStyle {
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.underlineStyle {
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.overlineStyle {
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: overline;
+}
+
+.line-throughStyle {
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: line-through;
+}
+
+.wavyStyle {
+    font-style: normal;
+    font-weight: normal;
+    text-decoration-style: wavy;
+}
+
+.dashedStyle {
+    font-style: normal;
+    font-weight: normal;
+    text-decoration-style: dashed;
+}
+
+.dottedStyle {
+    font-style: normal;
+    font-weight: normal;
+    text-decoration-style: dotted;
+}
+
+.doubleStyle {
+    font-style: normal;
+    font-weight: normal;
+    text-decoration-style: double;
+}
+
+.footerImage {
+    width: 60%;
+    margin-left: 40px;
+}
+
+.imgCaption {
+    font-family: "Crimson Text" ;
+    font-size: 11pt;
+    color: rgb(170, 12, 44);
+    margin-top: 10px;
+    text-indent: 40px;
+}
+
+.fullLineBreak {
+    height: 47px;
+    /*background-color: darkorange;*/
+    margin-top: 0;
+    margin-bottom: 58px;
+}
