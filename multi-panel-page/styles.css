@@ -1,0 +1,169 @@
+body {
+    font-family: "archivo narrow";
+    color: floralwhite;
+}
+
+.sectionOneBackground {
+    background-color: rgb(192, 204, 58);
+    height: 717px;
+}
+
+.column {
+    width: 955px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headerContainer {
+    padding-top: 152px;
+    padding-bottom: 185px;
+    background-image: url(./media/000220730002\ copy.jpg);
+    background-position-y: bottom;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0px;
+    padding-bottom: 0px;
+    font-size: 80px;
+    border: rgb(181, 207, 105);
+    color: rgb(196, 54, 26);
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: floralwhite;
+}
+
+h2 {
+    padding: 0;
+    margin: 0px;
+    font-size: 30px;
+    color: rgb(196, 54, 26);
+    -webkit-text-stroke-width: .7px;
+    -webkit-text-stroke-color: floralwhite;
+
+}
+
+.sectionOne {
+    height: 717px;
+}
+
+h3 {
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 33px;
+    padding-top: 34px;
+    font-size: 30pt;
+    text-align: center;
+}
+
+.firstSectionParagraph {
+    font-size: 14pt;
+    line-height: 19pt;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 14px;
+}
+
+.sectionOneImg {
+    height: 300px;
+    width: 400px;
+    float: right;
+    margin: 0px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.sectionTwo {
+    height: 688px;
+}
+
+.sectionTwoBackground {
+    background-color: rgb(168, 180, 39);
+    height: 688px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    margin-right: 47px;
+    margin-bottom: 25px;
+}
+
+
+.grid li {
+    display: inline-block;
+    width: 45%;
+}
+
+.grid {
+    font-size: 0;
+}
+
+.gridImg {
+    float: left;
+    height: 150px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+li p {
+    font-size: 14pt;
+    padding: 0;
+    margin: 0;
+    margin-top: 8px;
+    line-height: 19pt;
+}
+
+.sectionThree {
+    height: 409px;
+}
+
+.sectionThreeBackground {
+    background-color: rgb(195, 199, 77);
+    height: 409px;
+}
+
+h5{
+    font-size: 19pt;
+    font-weight: lighter;
+    padding-left: 100pt;
+    padding-right: 100pt;
+    text-align: center;
+    margin: 0;
+    margin-top: 4px;
+    line-height: 27pt;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    padding-top: 16px;
+    font-size: 14pt;
+}
+
+.footerbackground {
+    background-color: rgb(102, 152, 155);
+    height: 100px;
+    margin-bottom: 0px
+}
+
+em {
+    font-style: italic;
+}
