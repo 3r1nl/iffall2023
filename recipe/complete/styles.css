@@ -210,6 +210,24 @@ em {
     font-size: 20pt;
 }
 
+@media (max-width:900px) {
+    #napkin {
+        padding: 20%; 
+        font-size: 25pt;
+        line-height: 20pt;
+        height: 350px;
+    }
+}
+
+@media (max-width:700px) {
+    #napkin {
+        padding: 20%; 
+        font-size: 20pt;
+        line-height: 20pt;
+        height: 350px;
+    }
+}
+
 @media (max-width:600px) {
     #napkin {
         padding: 20%; 
@@ -271,3 +289,4 @@ em {
         font-size: 27px;
     }
 }
+
