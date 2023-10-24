@@ -1,0 +1,273 @@
+html {
+    background-color:floralwhite;
+    font-family: tomarik-introvert, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: midnightblue;
+}
+
+.headerImg{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    width: 90%;
+    max-width: 870px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    overflow: hidden;
+    background-color: floralwhite;
+    position: sticky;
+    top: 0;
+}
+
+#nav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-family: chinchilla;
+    font-weight: 600;
+    font-size: 15pt;
+    color: crimson;
+    letter-spacing: 4pt;
+}
+
+#nav a:hover {
+    color: midnightblue;
+}
+
+.sticky {
+    position:sticky;
+    top: 0;
+    width: 90%;
+    max-width: 870px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#basicInfo {
+    height: 600px;
+    width: 90%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+#napkin {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    height: 350px;
+    background-image: url("media/doiliebrighterwhite.png") ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 22%; 
+    font-size: 25pt;
+    line-height: 25pt;
+}
+
+#ingredientContainer {
+    width: 100%; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#ingredients {
+    margin-bottom: 100px;
+    width: 90%;
+    max-width: 870px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-image: url(media/strawberryiconsm.png);
+    margin-bottom: 0px;
+}
+
+#forCake {
+    width: 45%;
+    max-width: 430px;
+}
+
+#forToppings {
+    width: 45%;
+    max-width: 430px;
+}
+
+#tools {
+    width: 90%;
+    max-width: 870px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+#toolsLi {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.toolEntry {
+    width: 40%;
+    display: block;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.toolImg {
+    float:left;
+    width: 100%;
+}
+
+#steps {
+    width: 90%;
+    max-width: 870px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+.stepEntry {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.stepContent {
+    width: 35%;
+    margin-right: 0pt;
+    margin-left: 20px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.stepImg {
+    width:40%;
+    height:40%;
+    margin-right:0;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#video {
+    width: 90%;
+    max-width: 870px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    width: 90%;
+    max-width: 870px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "professor", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1 {
+    font-family: chinchilla;
+    font-weight: 600;
+    font-size: 50pt;
+    color: crimson;
+    letter-spacing: 10pt;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3 {
+    width: 10%;
+    margin-top: 0;
+    padding-top: 0;
+    font-family: "professor", sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+}
+
+p{
+    padding-top: 0;
+    margin-top: 0;
+}
+
+em {
+    font-family: "professor", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+}
+
+.medium {
+    font-size: 20pt;
+}
+
+@media (max-width:600px) {
+    #napkin {
+        padding: 20%; 
+        font-size: 15pt;
+        line-height: 15pt;
+        height: 350px;
+    }
+
+    #basicInfo {
+        height: 300px;
+    }
+
+    #forCake {
+        width: 90%;
+        max-width: 430px;
+    }
+    
+    #forToppings {
+        width: 90%;
+        max-width: 430px;
+    }
+
+    .toolEntry {
+        width: 90%;
+        display: block;
+        margin-right: 10%;
+        text-align: center;
+    }
+
+    .stepEntry {
+        display: block;
+        flex-wrap: none;
+        margin-bottom: 30px;
+    }
+
+    .stepContent {
+        width: 90%;
+        margin-right: 0pt;
+        margin-left: 20px;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .stepImg {
+        width:90%;
+        height:90%;
+        margin-right:0;
+        margin-top: 0;
+        padding-top: 0;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        width: 100%;
+        margin-top: 0;
+        padding-top: 0;
+        font-family: "professor", sans-serif;
+        font-weight: 400;
+        font-size: 27px;
+    }
+}

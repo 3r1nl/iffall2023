@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Erin's Recipe Page</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://use.typekit.net/jwl4jzo.css">   
+    </head>
+    <main>
+        <header>
+            <img src="media/recipeheadercropped.png" class="headerImg">
+        </header>
+<!-------------------------------------------------navigation------------------------------------------------------>
+<!----------------------reference: https://www.w3schools.com/howto/howto_js_navbar_sticky.asp --------------------->
+<!----------------------reference: https://developer.mozilla.org/en-US/docs/Web/CSS/position ---------------------->
+        <section id="nav">
+            <a href="#basicInfo">basic info</a>
+            <a href="#ingredients">ingredients</a>
+            <a href="#tools">tools</a>
+            <a href="#steps">instructions</a>
+        </section>
+<!-------------------------------------------------basic info------------------------------------------------------>
+        <section id="basicInfo">
+            <div id="napkin">
+                <p>
+                    <em>prep time:</em> 45 min
+                </p>
+                <p>
+                    <em>cook time:</em> 22 min
+                </p>
+                <p>
+                    <em>total time:</em> 5 hours, 30 min
+                </p>
+                <p>
+                    <em>yield:</em> 12 servings
+                </p>
+            </div>
+        </section>
+<!-------------------------------------------------ingredients------------------------------------------------------>
+        <section id="ingredients">
+            <h1>ingredients</h1>
+            <div id="ingredientContainer"> <!--change to container div and get rid of float use float-->
+                <div id="forCake">
+                    <em class="medium">for cake:</em>
+                    <ul>
+                        <li>2 1/2 cups cake flour</li>
+                        <li>2 teaspoons baking powder</li>
+                        <li>1/2 teaspoon baking soda</li>
+                        <li>1 teaspoon salt</li>
+                        <li>3/4 cup unsalted butter, softened to room temperature</li>
+                        <li>1 3/4 granulated sugar</li>
+                        <li>5 large eff whites, at room temperature</li>
+                        <li>1/2 cup sour cream, at room temperature</li>
+                        <li>1 tablespoon pure vanilla extract</li>
+                        <li>1 cup of whole milk, at room temperature</li>
+                    </ul>
+                </div>
+                <div id="forToppings">
+                    <em class="medium">for toppings:</em>
+                    <ul>
+                        <li>2 cups cold heavy cream or heavy whipping cream</li>
+                        <li>1/3 cup confectioners' sugar</li>
+                        <li>1/2 teaspoon baking soda</li>
+                        <li>1 teaspoon pure vanilla extract</li>
+                        <li>2 cups fresh mixed berries</li>
+                    </ul>
+                </div>
+            </div>
+        </section> 
+<!-------------------------------------------------tools------------------------------------------------------>
+<!-------------------reference: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ ---------------------->
+        <section id="tools">
+            <h1>tools</h1>
+            <ul id="toolsLi">
+                <li class="toolEntry">
+                    <img class="toolImg" src="media/doiliemixer3.png">
+                    <h2>Stand Mixer or Hand-held Mixer with Whisk Attachment</h2>
+                </li>
+                <li class="toolEntry">
+                    <img class="toolImg" src="media/doiliecakepan.png">
+                    <h2>9in cake pan</h2>
+                </li>
+            </ul>
+        </section>
+<!-------------------------------------------------steps------------------------------------------------------>
+        <section id="steps">
+            <h1>instructions</h1>
+            <div class="stepEntry">
+                <h3>Step 1:</h3>
+                <img src="https://sallysbakingaddiction.com/wp-content/uploads/2020/03/lined-round-cake-pans.jpg" class="stepImg">
+                <div class="stepContent">
+                <p>
+                    Make the cake: Preheat the oven to 350°F (177°C). Grease three 8-inch or 9-inch cake pans, 
+                    line with parchment paper rounds, then grease the parchment paper. Parchment paper helps the
+                    cakes seamlessly release from the pans. I recommend using nonstick spray for greasing. I also 
+                    recommend 8 inch cake pans as the 9 inch cakes will be pretty thin.
+                </p>
+                </div>
+            </div>
+            <div class="stepEntry">
+                <h3>Step 2:</h3>
+                <img src="https://www.simplyscratch.com/wp-content/uploads/2017/09/Homemade-White-Cake-Mix-l-SimplyScratch.com-2-1200x1798.jpg" class="stepImg">
+                <p class="stepContent">
+                    Whisk the cake flour, baking powder, baking soda, and salt together. Set aside.
+                </p>
+            </div>
+            <div class="stepEntry">
+                <h3>Step 3:</h3>
+                <img src="https://bluebowlrecipes.com/wp-content/uploads/2023/05/white-cake-process-photos.jpg" class="stepImg">
+                <p class="stepContent">
+                    Using a handheld or stand mixer fitted with a whisk attachment, beat the butter on high speed 
+                    until smooth and creamy, about 1 minute. Add the sugar and beat on high speed for 2 minutes until 
+                    creamed together. Scrape down the sides and up the bottom of the bowl with a rubber spatula as 
+                    needed. Add the egg whites. Beat on high speed until combined, about 2 minutes. Then beat in the 
+                    sour cream and vanilla extract. Scrape down the sides and up the bottom of the bowl as needed. 
+                    With the mixer on low speed, add the dry ingredients until just incorporated. With the mixer still 
+                    running on low, slowly pour in the milk until combined. Do not overmix. You may need to whisk it all 
+                    by hand to make sure there are no lumps at the bottom of the bowl. The batter will be slightly thick.
+                </p>
+            </div>
+            <div class="stepEntry">
+                <h3>Step 4:</h3>
+                <img src="https://sallysbakingaddiction.com/wp-content/uploads/2020/03/3-cake-pans-with-cake-batter.jpg" class="stepImg">
+                <p class="stepContent">
+                    Pour batter evenly into cake pans. Bake for around 22-24 minutes or until the cakes are baked through. 
+                    To test for doneness, insert a toothpick into the center of the cake. If it comes out clean, it is done. 
+                    Allow cakes to cool completely in the pans set on a wire rack. The cakes must be completely cool before 
+                    assembling.
+                </p>
+            </div>
+            <div class="stepEntry">
+                <h3>Step 5:</h3>
+                <img src="https://sallysbakingaddiction.com/wp-content/uploads/2020/03/fluffy-whipped-cream.jpg" class="stepImg">
+                <p class="stepContent">
+                    Make the whipped cream: Using a hand mixer or a stand mixer fitted with a whisk attachment, 
+                    whip the heavy cream, confectioners’ sugar, vanilla extract, and almond extract on medium-high 
+                    speed until medium peaks form, about 3-4 minutes. Medium peaks are between soft/loose peaks and 
+                    stiff peaks and are the perfect consistency for decorating cakes. Use immediately or cover 
+                    tightly and chill in the refrigerator for up to 24 hours. Yields about 4 cups.
+                </p>
+            </div>
+            <div class="stepEntry">
+                <h3>Step 6:</h3>
+                <img src="https://sallysbakingaddiction.com/wp-content/uploads/2020/03/decorating-fresh-berry-cake.jpg" class="stepImg">
+                <p class="stepContent">
+                    Assemble cake: If cooled cakes are domed on top, use a large serrated knife to slice a thin layer 
+                    off the tops to create a flat surface. This is called “leveling” the cakes. (Discard thin layer or 
+                    crumble over ice cream.) Place 1 cake layer on your cake stand, cake turntable, or serving plate. 
+                    Evenly spread 1 heaping cup of whipped cream on top. I always use an icing spatula to spread. Arrange 
+                    a single layer of mixed berries on top. Top with 2nd cake layer. Spread another 1 heaping cup of 
+                    whipped cream on top, then a single layer of berries. Top with 3rd cake layer. Spread remaining whipped 
+                    cream on top and garnish with fresh berries. Add a dusting of confectioners’ sugar on the berries, if 
+                    desired, and/or garnish with fresh florals.
+                </p>
+            </div>
+            <div class="stepEntry">
+                <h3>Step 7:</h3>
+                <img src="https://sallysbakingaddiction.com/wp-content/uploads/2020/03/fresh-berry-cream-cake.jpg" class="stepImg">
+                <p class="stepContent">
+                    Chill the assembled cake, uncovered, for at least 2 hours and up to 1 day before slicing and serving. 
+                    This time in the refrigerator helps the whipped cream thicken and makes cutting neater and easier. If 
+                    chilling for longer than a few hours, you can carefully cover it with plastic wrap or use a cake carrier 
+                    for storing in the refrigerator (what I always store my cakes in!). *Note that the berries could begin to 
+                    release their juices if kept in the refrigerator for longer than 2 hours. For cutting, I recommend using 
+                    your sharpest knife and cutting slowly.
+                </p>
+            </div>
+            <div class="stepEntry">
+                <h3>Step 8:</h3>
+                <img src="https://sallysbakingaddiction.com/wp-content/uploads/2020/03/fresh-berry-cream-cake-3.jpg" class="stepImg">
+                <p class="stepContent">
+                    Cover leftover cake tightly and store in the refrigerator for up to 5 days.
+                </p>
+            </div>
+        </section>
+        <section id="video">
+            <div id="videoBackground">
+
+            </div>
+        </section>
+        <footer>
+            Website designed by Erin Lee <br>
+            original recipe from <a href="https://sallysbakingaddiction.com/fresh-berry-cream-cake/#tasty-recipes-82987">Sally Baking Recipes</a>
+        </footer>
+
+    </main>
