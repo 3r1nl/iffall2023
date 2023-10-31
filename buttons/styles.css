@@ -1,0 +1,420 @@
+a#btn_oldnavy {
+    display: inline-block;
+	height: 50px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 10px 40px 0 40px;
+	background-color: #18185b;
+	border: 2px solid #18185b;
+	color: #fff;
+    font-family: "lorimer-no-2-condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 20pt;
+    padding-top: 8px;
+    text-transform: uppercase;
+}
+
+a#btn_oldnavy:hover {
+    /* clear text reference: https://www.geeksforgeeks.org/how-to-add-image-in-text-background-using-html-and-css/ */
+    background-image: url(media/ocean.jpeg);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;    
+    background-size: contain;  
+}
+
+/*-----------------------------Lyft Button--------------------------------*/
+
+
+a#btn_lyft {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    text-decoration: none;
+}
+
+img#lyft_logo {
+    width: 20%;
+}
+
+i.fa-solid.fa-car-side {
+    transform: scale(1.5);
+    margin-left: 5px;
+    padding-bottom: 20px;
+}
+
+a#btn_lyft:hover i.fa-solid.fa-car-side {
+    animation-duration: 1s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+   
+}
+
+@keyframes slidein {
+    from {
+        transform: translate(0%, 0%) scale(1.5);
+    }
+    to {
+        transform: translate(200%, 0%) scale(1.5);
+    }
+}
+
+/*-----------------------------Color Run Button--------------------------------*/
+
+a#btn_colorrun {
+    display: inline-block;
+    height: 115px;
+    box-sizing: border-box;  
+    margin: auto;
+    margin-top: 75px;
+    padding: 10px 40px 0 40px;
+    text-decoration: none;
+    font-family: "lorimer-no-2-condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20pt;
+    text-transform: uppercase;
+    text-align: left;
+    background-color: black;
+    color: white; 
+}
+
+a#btn_colorrun:hover {
+    background-image: url(https://wainwright.armymwr.com/application/files/5415/6417/7067/Cougar-Color-Run-Rummage-Sale.jpg);
+    background-size: cover;
+    background-repeat: none;
+}
+
+/*-----------------------------Ideo Button--------------------------------*/
+
+
+a#btn_ideo {
+    text-decoration: none;
+    height: 500px;
+}
+
+div#redcircle {
+    display: inline-flex;
+    margin:auto;
+    margin-top: 85px;
+    height:70px;
+    width: 70px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    transform: translate(-20%,0%) rotate(-45deg);
+    box-sizing: border-box;
+    border-width: 15px;
+    border-style: solid;
+    border-color: rgb(215, 72, 43);
+    border-bottom-color: rgba(216, 191, 216, 0);
+    border-left-color: transparent;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+div#bluecircle {
+    display: inline-flex;
+    text-align: none;
+    margin:auto;
+    margin-top: 85px;
+    height:70px;
+    width: 70px;
+    background-color: rgba(13, 205, 183, 0);
+    border-radius: 150%;
+    transform: translate(20%,0%) rotate(-45deg);
+    box-sizing: border-box;
+    border-width: 15px;
+    border-style: solid;
+    border-color: rgba(13, 205, 183, 0.456);
+    border-bottom-color: rgba(216, 191, 216, 0);
+    border-left-color: transparent; 
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+a#btn_ideo:hover div#redcircle {
+    transform: translate(30%,0%) rotate(-45deg);
+    animation-duration: 1s;
+    animation-name: slideleft;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+
+a#btn_ideo:hover div#bluecircle {
+    transform: translate(-30%,0%) rotate(-45deg);
+    animation-duration: 1s;
+    animation-name: slideright;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+
+img#ideoname {
+    width: 150px;
+    opacity: 0;
+    transform: translate(0%, -50%);
+}
+
+a#btn_ideo:hover img#ideoname {
+    opacity: 100;
+    animation-duration: 1s;
+    animation-name: slideup;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+
+@keyframes slideleft {
+    from {
+        transform: translate(-20%,0%) rotate(-45deg);
+    }
+    to {
+        transform: translate(30%,0%) rotate(-45deg);
+    }
+}
+
+@keyframes slideright {
+    from {
+        transform: translate(20%,0%) rotate(-45deg);
+    }
+    to {
+        transform: translate(-30%,0%) rotate(-45deg);
+    }
+}
+
+@keyframes slideup {
+    from {
+        transform: translate(0%, 100%);
+    }
+    to {
+        transform: translate(0%, -50%);
+    }
+}
+
+/*-----------------------------FitBit Button--------------------------------*/
+
+@font-face{
+    font-family: 'seville';
+    src: url('fonts/Seville-Regular.ttf') format('truetype');
+}
+
+a#btn_fitbit {
+    display: inline-block;
+    height: 115px;
+    box-sizing: border-box;  
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 30px;
+    text-decoration: none;
+    font-family: seville;
+    font-size: 30pt;
+    color: rgb(5, 37, 40);
+}
+
+img#fitbitlogo {
+    width: 10%;
+}
+
+a#btn_fitbit:hover img#fitbitlogo{
+    animation-duration: 2s;
+    animation-name: spins;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes spins {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(520deg);
+    }
+}
+
+/*-----------------------------Tesla Button--------------------------------*/
+
+a#btn_tesla {
+    display: inline-block;
+    height: 115px;
+    box-sizing: border-box;  
+    margin: auto;
+    margin-top: 75px;
+}
+
+img#teslalogo {
+    width: 50%;
+}
+
+a#btn_tesla:hover img#teslalogo {
+    box-shadow: 0 0 50px rgb(255, 92, 47);
+    animation-duration: 1s;
+    animation-name: glow;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+
+@keyframes glow {
+    from {
+        transform: scale(100%);
+    }
+    to {
+        transform: scale(120%);
+    }
+}
+
+/*-----------------------------Craigslist Button--------------------------------*/
+
+a#btn_craigslist {
+    display: inline-block;
+    height: 115px;
+    box-sizing: border-box;  
+    margin: auto;
+    margin-top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-size: 25pt;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+
+a#btn_craigslist:hover .fa-solid.fa-peace {
+    animation-duration: .5s;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes bounce {
+    from {
+        transform: translate(0%, 0%);
+    }
+    to {
+        transform: translate(0%, -60%);
+    }
+}
+
+/*-----------------------------New Yorker Button--------------------------------*/
+
+a#btn_newyorker {
+    display: inline-block;
+    height: 115px;
+    box-sizing: border-box;  
+    margin: auto;
+    margin-top: 100px;
+    text-decoration: none;
+}
+
+img#butterfly {
+    width: 5%;
+    transform: translate(10%, -150%);
+}
+
+svg#butterflypath {
+    transform: translate(50%, -50%);
+}
+
+img#man {
+    width: 15%;
+}
+
+img#newyorkerlogo {
+    width: 60%;
+}
+
+/* moving butterfly reference: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_motion_path */
+/* offset path reference: https://developer.mozilla.org/en-US/docs/Web/CSS/offset-path */
+/* offset path reference: https://fullystacked.net/posts/offset-path/ */
+
+a#btn_newyorker:hover img#butterfly {
+    animation-duration: .5s;
+    animation-name: float;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes float {
+    from {
+        transform: translate(10%, -150%) rotate(45);
+    }
+    to {
+        transform: translate(15%, -300%) rotate(-45deg);
+    }
+}
+
+/*-----------------------------Apple Button--------------------------------*/
+
+a#btn_apple {
+    display: inline-block;
+    height: 115px;
+    box-sizing: border-box;  
+    margin: auto;
+    margin-top: 75px;
+    text-decoration: none;
+}
+
+img#applelogo {
+    width: 30%;
+    transform: translate(50%, 0%);
+}
+
+img#rainbowapple {
+    transform: translate(-55%, 0%);
+    width: 30%;
+    opacity: 0;
+}
+
+a#btn_apple:hover img#rainbowapple {
+    opacity: 100;
+    animation-duration: 1s;
+    animation-name: colorchange;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+
+a#btn_apple:hover img#applelogo {
+    opacity: 0;
+}
+
+
+@keyframes colorchange {
+    from {
+        transform: translate(-55%, 0%) scale(100%);
+    }
+    to {
+        transform: translate(-55%, 0%) scale(120%);
+    }
+}
+
+/*-----------------------------Facebook Button--------------------------------*/
+
+a#btn_facebook {
+    color: #1877F2;
+    font-family: helvetica;
+    font-size: 20pt;
+    display: inline-block;
+	height: 50px;
+    width: 200px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 110px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #1877F2;
+    padding: 7px 40px 0 40px;
+}
+
+a#btn_facebook:hover {
+    background-color:#1877F2;
+    color: white;
+    font-weight: bolder;
+}
+
+
