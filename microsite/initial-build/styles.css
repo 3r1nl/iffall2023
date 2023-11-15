@@ -1,0 +1,393 @@
+@font-face {
+    font-family: windowsRegular;
+    src: url(fonts/Windows\ Regular.ttf);
+}
+
+main {
+    background-image: url(https://www.newegg.com/insider/wp-content/uploads/windows_xp_bliss-wide.jpg);
+    background-size: 100%;
+    background-repeat: none;
+    background-size: cover;
+    height: 1000px;
+    cursor: url(media/cursor.png);
+    font-family: windowsRegular;
+
+}
+
+ p {
+    font-family: windowsRegular;
+ }
+
+em {
+    text-decoration: underline;
+    font-style: normal;
+}
+
+/* --------------------------- minesweeper icon --------------------------- */
+
+div.iconContainer {
+    width: 100px;
+    height: 100px;
+    transform: translate(400%,400%);
+    font-family: windowsRegular;
+}
+
+img#msLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    width: 65px;
+}
+
+img#appEnter {
+    display: block;
+    transform: translate(100%, -110%);
+    width: 17%;
+}
+
+p.appName {
+    font-family: windowsRegular;
+    text-align: center;
+    font-size: 12pt;
+    letter-spacing: 1px;
+    padding-top: 0;
+    margin-top: -15px;
+}
+
+p.appName:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+/* --------------------------- intro page --------------------------- */
+
+div#introPg {
+    transform: translate(110%, 30%); 
+    position: absolute;
+    display: none;
+
+}
+
+img#introBackground {
+    width: 35%;
+    height: 35%;
+}
+
+div#topBar {
+    width: 600px;
+    height: 20px;
+    background-color: darkblue;
+    margin-top: 10px;
+    border: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+img#closeBtn {
+    display: block;
+    float: left;
+    width: 3.5%;
+}
+
+img#closeBtn:hover {
+    width: 3%;
+    border-style: inset;
+}
+
+p#topBarTitle {
+    font-family: windowsRegular;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+div#whiteBar {
+    width: 600px;
+    height: 20px;
+    background-color: white;
+    border: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+div#grayBackground {
+    width: 600px;
+    height: 400px;
+    background-color: rgb(190, 190, 190);
+    border: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+div#menu {
+    display: inline-block;
+    font-family: windowsRegular;
+    color: black;
+    padding-left: 10px;
+    letter-spacing: 1px;
+}
+
+div#menu:hover {
+    text-decoration: underline;
+}
+
+div#firstBar {
+    width: 580px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: rgb(201, 201, 201);
+    border-style: inset;
+    border-width: 3px;
+}
+
+div#secondBar {
+    width: 580px;
+    height: 310px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: rgb(201, 201, 201);
+    border-style: inset;
+    border-width: 3px;
+}
+
+div#aboutTextContainer {
+    width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+iframe#minesweeper {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+/* --------------------------- gameplay folder icon --------------------------- */
+
+div.FolderContainer {
+    width: 100px;
+    height: 100px;
+    font-family: windowsRegular;
+    transform: translate(300%, 550%);
+}
+
+
+
+img.folder {
+    display: block;
+    margin-left: -10px;
+    margin-right: auto;
+    padding-top: 0;
+    padding-bottom: -50px;
+    width: 120px;
+    margin-bottom: -10;
+
+}
+
+p.folderName {
+    font-family: windowsRegular;
+    text-align: center;
+    font-size: 12pt;
+    letter-spacing: 1px;
+    padding-top: 0;
+    margin-top: -30px;
+}
+
+p.folderName:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+/* --------------------------- gameplay page --------------------------- */
+
+div#gameplayPg {
+    transform: translate(60%, -10%); 
+    position: absolute;
+    width: 600px;
+    height: 450px;
+    background-color: rgb(193, 193, 193);
+    display: none;
+}
+
+div#fileexplorertopbar {
+    width: 580px;
+    height: 30px;
+    background-color: rgb(140, 140, 140);
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img.xBtn {
+    width: 4%;
+    float: right;
+    display: block;
+    transform: translate(0%, -100%);
+    border-style: outset;
+}
+
+img.xBtn:hover {
+    border-style: inset;
+}
+
+div#fileexplorertopbar > p#topBarTitle {
+    padding-top: 6px;
+}
+
+div#fileExplorerMenu {
+    width: 570px;
+    height: 30px;
+    background-color: rgb(193, 193, 193);
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div#whiteBox {
+    width: 560px;
+    height: 355px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: auto;
+}
+
+/* --------------------------- history folder icon --------------------------- */
+
+div.history {
+    transform: translate(500%, 550%);
+}
+
+/* --------------------------- history page --------------------------- */
+
+div#historyPg {
+    transform: translate(100%, -10%); 
+    position: absolute;
+    width: 600px;
+    height: 450px;
+    background-color: rgb(193, 193, 193);
+    display: none;
+}
+
+div#fileExplorerMenu div#menu:hover {
+    text-decoration: underline;
+}
+
+div#eighties {
+    display: block;
+}
+
+div#eighties img {
+    width: 100%;
+}
+
+div#nineties {
+    display: none;
+}
+
+div#nineties img {
+    width: 100%;
+}
+
+div#twoThousands {
+    display: none;
+}
+
+div#twoThousands img {
+    width: 100%;
+}
+
+/* --------------------------- variants folder icon --------------------------- */
+
+div.variants {
+    transform: translate(400%, 550%);
+}
+
+/* --------------------------- variants page --------------------------- */
+
+div#variantsPg {
+    transform: translate(100%, -50%); 
+    position: absolute;
+    width: 600px;
+    height: 450px;
+    background-color: rgb(193, 193, 193);
+    display: none;
+}
+
+div#variantsOverview {
+    display: block;
+}
+
+div#variantsImgs {
+    margin-right: auto;
+    margin-left: auto;
+    display: none;
+}
+
+div#variantsGridStructure {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+div.variantContainer {
+    width: 30%;
+    margin-top: 10px;
+    display: block;
+    margin-right: 15px;
+}
+
+div.variantContainer img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+div.variantContainer p {
+    text-align: center;
+}
+
+/* --------------------------- competitive play folder --------------------------- */
+
+div.competitivePlay {
+    transform: translate(900%, 300%);
+}
+
+div#competitivePlayPg {
+    transform: translate(120%, -50%); 
+    position: absolute;
+    width: 600px;
+    height: 450px;
+    background-color: rgb(193, 193, 193);
+    display: none;
+}
+
+/* --------------------------- computational complexity folder --------------------------- */
+
+div.computationalComplexity {
+    transform: translate(700%, 300%);
+}
+
+div#computationalComplexityPg {
+    transform: translate(120%, -50%); 
+    position: absolute;
+    width: 600px;
+    height: 450px;
+    background-color: rgb(193, 193, 193);
+    display: none;
+}
