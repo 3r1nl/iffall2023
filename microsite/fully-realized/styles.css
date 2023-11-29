@@ -545,7 +545,7 @@ div#referencePg div#aboutTextContainer {
     display: block;
 }
 
-div#aboutTextContainer p {
+div#referencePg div#aboutTextContainer p {
     padding-left: 20px;
     font-size: 20pt;
 }
@@ -926,7 +926,7 @@ div#aboutTextContainer p {
         display: block;
     }
 
-    div#aboutTextContainer p {
+    div#referencePg div#aboutTextContainer p {
         padding-left: 20px;
         font-size: 15pt;
     }
