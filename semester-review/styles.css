@@ -1,0 +1,78 @@
+div.content {
+    width: 80%;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+h1 {
+    text-align: center;
+    font-family: "nitti-typewriter-cameo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color:slateblue;
+    padding-bottom: 0pt;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-family: "nitti-typewriter-normal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20pt;
+}
+
+h3 {
+    font-family: "nitti-typewriter-normal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20pt;
+}
+
+p.subHead{
+    font-family: "nitti-typewriter-normal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12pt;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+    color:slateblue;
+
+}
+
+header {
+    margin-bottom: 70px;
+}
+
+a.pgLink {
+    text-decoration: none;
+    color: black;
+}
+
+h2:hover {
+    font-family: "nitti-typewriter-cameo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color:slateblue;
+}
+
+iframe {
+    border-style: none;
+}
+
+div.Container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+iframe.mobileView {
+    width: 380px;
+    height: 600px;
+}
+
+iframe.computerView {
+    width: 900px;
+    height: 600px;
+}
